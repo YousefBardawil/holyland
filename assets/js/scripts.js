@@ -33,8 +33,13 @@ jQuery(document).ready(function() {
 	new WOW().init();
 	
 	/*
+
+	
 	    Carousel
 	*/
+
+
+
 	$('#carousel-example').on('slide.bs.carousel', function (e) {
 
 	    /*
@@ -69,6 +74,7 @@ jQuery(document).ready(function() {
 	        CC 2.0 License Iatek LLC 2018
 	        Attribution required
 	    */
+			
 	    var $e = $(e.relatedTarget);
 	    var idx = $e.index();
 	    var itemsPerSlide = 5;
