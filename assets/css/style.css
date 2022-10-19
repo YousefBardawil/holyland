@@ -116,20 +116,53 @@ footer .footer {
         
     }
 
+    nav div ul a{
+        font-size: x-small;
+     
+     }
+
+     .frame iframe{
+        width:500px ;
+        height:275px;
+     }
+
   }
 @media screen and (max-width: 1600px) {
  nav div ul{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    
  }
+
 
  .frame iframe{
     width:500px ;
     height:275px;
  }
 
+ .card-title,
+.card-text {
+   
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
   }
+
+  @media screen and (max-width: 500px) {
+
+    .frame iframe{
+        width:400px ;
+        height:275px;
+     }
+
+   
+     }
+
+
 
 
 
